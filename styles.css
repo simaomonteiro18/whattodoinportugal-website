@@ -67,13 +67,22 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  gap: 10px;
   text-decoration: none;
+  color: var(--teal);
 }
-.logo-img {
-  height: 52px;
-  width: auto;
-  object-fit: contain;
+.logo-icon {
+  width: 44px;
+  height: 44px;
+  background: var(--teal);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.logo-icon svg { width: 28px; height: 28px; }
+.logo-text { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.15rem; line-height: 1.2; }
+.logo-text span { display: block; color: var(--gold); font-size: 0.75rem; font-weight: 600; font-family: 'DM Sans', sans-serif; letter-spacing: 0.12em; text-transform: uppercase; }
 
 .nav-links { display: flex; gap: 6px; align-items: center; }
 .nav-links a {
