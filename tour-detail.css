@@ -324,9 +324,19 @@
   .tour-hero { min-height: 320px; }
 }
 @media (max-width: 600px) {
+  .tour-hero { min-height: 350px; }
+  .tour-hero h1 { font-size: 1.6rem; }
+  .tour-hero-sub { font-size: 0.9rem; line-height: 1.5; }
+  .tour-hero-overlay { padding-bottom: 32px; }
+  .tour-hero-tag { font-size: 0.65rem; padding: 5px 12px; }
+  .tour-back { font-size: 0.78rem; }
   .tour-quick-info { grid-template-columns: 1fr; }
   .note-cards { grid-template-columns: 1fr; }
   .includes-grid { grid-template-columns: 1fr; }
-  .tour-hero { min-height: 280px; }
-  .tour-hero h1 { font-size: 1.8rem; }
+}
+@media (max-width: 400px) {
+  .tour-hero { min-height: 320px; }
+  .tour-hero h1 { font-size: 1.4rem; }
+  .tour-hero-sub { font-size: 0.82rem; }
+  .container { padding: 0 16px; }
 }
