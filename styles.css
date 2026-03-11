@@ -244,6 +244,7 @@ body {
   align-items: center;
   gap: 14px;
   animation: float 4s ease-in-out infinite;
+  z-index: 1001;
 }
 .hero-float-card.card-1 { top: -20px; left: -40px; }
 .hero-float-card.card-2 { bottom: 30px; right: -30px; animation-delay: 2s; }
