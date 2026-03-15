@@ -106,7 +106,7 @@
         <a href="../index.html#contact">Contact</a>
         <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn-book" target="_blank">Book Now</a>
       </div>
-      <button class="mobile-toggle" onclick="openMobileNav()">
+      <button class="mobile-toggle" onclick="openMobileNav()" aria-label="Open navigation menu">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -114,7 +114,7 @@
 
   <!-- MOBILE NAV -->
   <div class="mobile-nav" id="mobileNav">
-    <button class="mobile-close" onclick="closeMobileNav()">&times;</button>
+    <button class="mobile-close" onclick="closeMobileNav()" aria-label="Close navigation menu">&times;</button>
     <a href="../index.html#tours" onclick="closeMobileNav()">Private Tours</a>
     <a href="../index.html#multiday" onclick="closeMobileNav()">Multi-Day Tours</a>
     <a href="../index.html#experiences" onclick="closeMobileNav()">Experiences</a>
@@ -221,17 +221,17 @@
               <img src="/assets/guincho.webp" alt="Praia do Guincho, Cascais" data-caption="Praia do Guincho">
               <img src="/assets/boca-do-inferno.webp" alt="Boca do Inferno, Cascais" data-caption="Boca do Inferno">
               <img src="/assets/baia-cascais.webp" alt="Baía de Cascais" data-caption="Baía de Cascais">
-              <button class="slideshow-btn prev" onclick="slideMove(-1)">&#8249;</button>
-              <button class="slideshow-btn next" onclick="slideMove(1)">&#8250;</button>
+              <button class="slideshow-btn prev" onclick="slideMove(-1)" aria-label="Previous photo">&#8249;</button>
+              <button class="slideshow-btn next" onclick="slideMove(1)" aria-label="Next photo">&#8250;</button>
               <div class="slideshow-dots" id="slideshow-dots"></div>
             </div>
           </div>
 
           <div class="lightbox" id="lightbox">
-            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
-            <button class="lightbox-btn prev" onclick="lightboxMove(-1);event.stopPropagation()">&#8249;</button>
+            <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close gallery">&times;</button>
+            <button class="lightbox-btn prev" onclick="lightboxMove(-1);event.stopPropagation()" aria-label="Previous photo">&#8249;</button>
             <img id="lightbox-img" src="" alt="">
-            <button class="lightbox-btn next" onclick="lightboxMove(1);event.stopPropagation()">&#8250;</button>
+            <button class="lightbox-btn next" onclick="lightboxMove(1);event.stopPropagation()" aria-label="Next photo">&#8250;</button>
             <span class="lightbox-caption" id="lightbox-caption"></span>
           </div>
 
