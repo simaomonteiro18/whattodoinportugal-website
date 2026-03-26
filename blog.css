@@ -1,0 +1,308 @@
+/* ─── BLOG HERO ─── */
+.blog-hero {
+  background: linear-gradient(135deg, var(--teal-dark) 0%, var(--teal) 50%, #1A6B6B 100%);
+  padding: 80px 0 60px;
+  text-align: center;
+  color: var(--white);
+}
+.blog-hero .section-label { color: var(--gold-light); }
+.blog-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.blog-hero p {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  max-width: 520px;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* ─── BLOG LISTING ─── */
+.blog-listing {
+  padding: 60px 0 100px;
+}
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 32px;
+}
+
+/* ─── BLOG CARD ─── */
+.blog-card {
+  background: var(--white);
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--charcoal);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0.04);
+  transition: all 0.4s cubic-bezier(0.22,1,0.36,1);
+  display: flex;
+  flex-direction: column;
+}
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 48px rgba(0,0,0,0.1);
+}
+.blog-card-img {
+  overflow: hidden;
+  height: 220px;
+}
+.blog-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.22,1,0.36,1);
+}
+.blog-card:hover .blog-card-img img {
+  transform: scale(1.06);
+}
+.blog-card-body {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.blog-card-date {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.blog-card-body h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 10px;
+}
+.blog-card-body p {
+  font-size: 0.88rem;
+  color: var(--gray);
+  line-height: 1.6;
+  flex: 1;
+}
+.blog-card-read {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--teal);
+  margin-top: 16px;
+  transition: color 0.3s;
+}
+.blog-card:hover .blog-card-read { color: var(--teal-dark); }
+
+/* ─── BLOG POST PAGE ─── */
+.blog-post-hero {
+  position: relative;
+  min-height: 380px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+.blog-post-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.15) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 48px;
+}
+.blog-post-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+  transition: color 0.3s;
+}
+.blog-post-back:hover { color: var(--gold-light); }
+.blog-post-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+.blog-post-meta {
+  display: flex;
+  gap: 20px;
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+}
+
+/* ─── BLOG POST CONTENT ─── */
+.blog-post-content {
+  padding: 60px 0 100px;
+}
+.blog-post-content .container {
+  max-width: 760px;
+}
+.blog-post-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin: 40px 0 16px;
+}
+.blog-post-content h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin: 32px 0 12px;
+}
+.blog-post-content p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+.blog-post-content img {
+  width: 100%;
+  border-radius: 16px;
+  margin: 32px 0;
+}
+.blog-post-content ul,
+.blog-post-content ol {
+  margin: 12px 0 20px 24px;
+  color: var(--gray);
+}
+.blog-post-content li {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+.blog-post-content a {
+  color: var(--teal);
+  text-decoration: underline;
+}
+.blog-post-content blockquote {
+  border-left: 4px solid var(--gold);
+  padding: 16px 24px;
+  margin: 32px 0;
+  background: var(--sand);
+  border-radius: 0 12px 12px 0;
+  font-style: italic;
+  color: var(--charcoal);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* CTA at end of post */
+.blog-post-cta {
+  background: var(--sand);
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  margin-top: 48px;
+}
+.blog-post-cta h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: var(--charcoal);
+}
+.blog-post-cta p {
+  color: var(--gray);
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+}
+
+.blog-post-cta a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.season-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 30px 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.season-table thead {
+  background: #1a1a1a;
+  color: white;
+}
+
+.season-table th {
+  padding: 16px;
+  font-weight: 600;
+}
+
+.season-table td {
+  padding: 16px;
+  background: #fff;
+}
+
+.season-table tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+/* ─── RESPONSIVE ─── */
+
+@media (max-width: 768px) {
+  .season-table thead {
+    display: none;
+  }
+
+  .season-table, 
+  .season-table tbody, 
+  .season-table tr, 
+  .season-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .season-table tr {
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+
+  .season-table td {
+    padding: 6px 0;
+    border: none;
+  }
+
+  .season-table td::before {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 2px;
+    color: #666;
+  }
+
+  .season-table td:nth-child(1)::before { content: "Season"; }
+  .season-table td:nth-child(2)::before { content: "Months"; }
+  .season-table td:nth-child(3)::before { content: "Temps"; }
+  .season-table td:nth-child(4)::before { content: "Crowds"; }
+  .season-table td:nth-child(5)::before { content: "Best for"; }
+  .season-table td:nth-child(6)::before { content: "Notes"; }
+}
+
+@media (max-width: 600px) {
+  .blog-grid { grid-template-columns: 1fr; }
+  .blog-hero { padding: 60px 0 40px; }
+  .blog-post-hero { min-height: 300px; }
+  .blog-post-content .container { padding: 0 20px; }
+  .blog-post-cta { padding: 28px 20px; }
+  .blog-post-cta a{
+    margin-bottom: 10px;
+  }
+}
