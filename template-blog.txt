@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | What to do in Portugal</title>
+  <title>The Most Famous Drinks in Portugal | What to do in Portugal</title>
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Travel tips, guides and insights about Portugal. Discover the best places to visit, local food, culture and insider tips from expert local guides.">
-  <link rel="canonical" href="https://whattodoin.pt/blog.html">
-  <meta property="og:title" content="Blog | What to do in Portugal">
-  <meta property="og:description" content="Travel tips, guides and insights about Portugal from expert local guides.">
-  <meta property="og:image" content="https://whattodoin.pt/assets/ogimage.png">
-  <meta property="og:url" content="https://whattodoin.pt/blog.html">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Discover Portugal's most famous drinks — from Ginjinha and Port Wine to Vinho Verde and Licor Beirão. A guide to traditional Portuguese beverages.">
+  <link rel="canonical" href="https://whattodoin.pt/blog/the-most-famous-drinks-in-portugal.html">
+  <meta property="og:title" content="The Most Famous Drinks in Portugal">
+  <meta property="og:description" content="Discover Portugal's most famous drinks — from Ginjinha to Port Wine.">
+  <meta property="og:image" content="https://whattodoin.pt/assets/blog/drinks-portugal.webp">
+  <meta property="og:url" content="https://whattodoin.pt/blog/the-most-famous-drinks-in-portugal.html">
+  <meta property="og:type" content="article">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="blog.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../blog.css">
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -32,9 +32,31 @@
     gtag('js', new Date());
     gtag('config', 'G-C7ZXS6SQ03');
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "The Most Famous Drinks in Portugal",
+    "description": "Discover Portugal's most famous drinks — from Ginjinha and Port Wine to Vinho Verde and Licor Beirão.",
+    "image": "https://whattodoin.pt/assets/blog/drinks-portugal.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "What to do in Portugal",
+      "url": "https://whattodoin.pt"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "What to do in Portugal",
+      "url": "https://whattodoin.pt"
+    },
+    "datePublished": "2026-03-25",
+    "dateModified": "2026-03-25",
+    "mainEntityOfPage": "https://whattodoin.pt/blog/the-most-famous-drinks-in-portugal.html"
+  }
+  </script>
 </head>
 <body>
- 
+
   <!-- TOP BAR -->
   <div class="top-bar">
     <div class="container">
@@ -43,7 +65,7 @@
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:5px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           info@whattodoin.pt
         </a>
-        <a href="https://api.whatsapp.com/send?phone=+351911542421&text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20tours!">
+        <a href="https://api.whatsapp.com/send?phone=+351911542421">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:5px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           +351 911 542 421
         </a>
@@ -58,18 +80,18 @@
       </div>
     </div>
   </div>
- 
+
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="container">
-      <a href="index.html" class="logo">
-        <img src="https://static.wixstatic.com/media/87b3d4_36224b318fa84241bf27cbd283ebf47f~mv2.png/v1/fill/w_290,h_190,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/87b3d4_36224b318fa84241bf27cbd283ebf47f~mv2.png" alt="What to do in Portugal" class="logo-img">
+      <a href="../index.html" class="logo">
+        <img src="https://static.wixstatic.com/media/87b3d4_36224b318fa84241bf27cbd283ebf47f~mv2.png/v1/fill/w_290,h_190,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/87b3d4_36224b318fa84241bf27cbd283ebf47f~mv2.png" alt="What to do in Portugal - Private Tours" class="logo-img" width="145" height="95" loading="eager">
       </a>
       <div class="nav-links">
         <a href="../index.html#tours">Tours</a>
         <a href="../index.html#multiday">Multi-Day</a>
         <a href="../index.html#experiences">Experiences</a>
-        <a href="../index.html#why">Why Us</a>
+        <a href="../blog.html">Blog</a>
         <a href="../index.html#contact">Contact</a>
         <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn-book" target="_blank">Book Now</a>
       </div>
@@ -78,131 +100,68 @@
       </button>
     </div>
   </nav>
- 
+
   <div class="mobile-nav" id="mobileNav">
     <button class="mobile-close" onclick="closeMobileNav()" aria-label="Close navigation menu">&times;</button>
     <a href="../index.html#tours" onclick="closeMobileNav()">Private Tours</a>
-    <a href="../index.html#multiday" onclick="closeMobileNav()">Multi-Day Tours</a>
-    <a href="../index.html#experiences" onclick="closeMobileNav()">Experiences</a>
-    <a href="../index.html#blog" onclick="closeMobileNav()">Blog</a>
-    <a href="../index.html#why" onclick="closeMobileNav()">Why Us</a>
+    <a href="../blog.html" onclick="closeMobileNav()">Blog</a>
     <a href="../index.html#contact" onclick="closeMobileNav()">Contact</a>
     <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn-book-mobile" target="_blank">Book Now</a>
   </div>
- 
-  <!-- BLOG HERO -->
-  <section class="blog-hero">
-    <div class="container">
-      <div class="section-label">Our Blog</div>
-      <h1>Travel Tips & Portugal Guides</h1>
-      <p>Insider knowledge from expert local guides — discover the best of Portugal before you arrive.</p>
-    </div>
-  </section>
- 
-  <!-- BLOG GRID -->
-  <section class="blog-listing">
-    <div class="container">
-      <div class="blog-grid">
- 
-        <!-- POST 1 -->
-        <a href="blog/the-most-famous-drinks-in-portugal.html" class="blog-card">
-          <div class="blog-card-img">
-            <img src="/assets/drinks.avif" alt="Traditional Portuguese drinks including Ginjinha and Port Wine" width="600" height="400" loading="lazy">
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-card-date">March 2026</span>
-            <h2>The Most Famous Drinks in Portugal</h2>
-            <p>From Ginjinha to Port Wine, discover the traditional drinks that define Portuguese culture and where to try them.</p>
-            <span class="blog-card-read">Read article →</span>
-          </div>
-        </a>
 
-        <!-- POST 2 -->
-        <a href="blog/ultimate-private-tour-experience-from-the-usa.html" class="blog-card">
-          <div class="blog-card-img">
-            <img src="/assets/portugal.webp" alt="Elétrico nos bairros de Lisboa" width="600" height="400" loading="lazy">
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-card-date">March 2026</span>
-            <h2>Discover Portugal: Your Ultimate Private Tour Experience from the USA</h2>
-            <p>From Ginjinha to Port Wine, discover the traditional drinks that define Portuguese culture and where to try them.</p>
-            <span class="blog-card-read">Read article →</span>
-          </div>
+  <!-- POST HERO -->
+  <section class="blog-post-hero" style="background-image: url('/assets/drinks.avif');">
+    <div class="blog-post-hero-overlay">
+      <div class="container">
+        <a href="../blog.html" class="blog-post-back">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          All Posts
         </a>
-
-        <!-- POST 3 -->
-        <a href="blog/best-portuguese-foods.html" class="blog-card">
-          <div class="blog-card-img">
-            <img src="/assets/pasteis.webp" alt="Pasteis de Belém" width="600" height="400" loading="lazy">
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-card-date">March 2026</span>
-            <h2>The Best Portuguese Foods You Must Try</h2>
-            <p>From Pastéis de Nata to Bacalhau, discover the iconic dishes that define Portuguese cuisine and where to find the best ones.</p>
-            <span class="blog-card-read">Read article →</span>
-          </div>
-        </a>
-
-        <!-- POST 4 -->
-        <a href="blog/most-instagrammable-places-portugal.html" class="blog-card">
-          <div class="blog-card-img">
-            <img src="/assets/instagrammable.webp" alt="Palácio Nacional de Sintra" width="600" height="400" loading="lazy">
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-card-date">March 2026</span>
-            <h2>The Most Instagrammable Places in Portugal</h2>
-            <p>From Sintra's colourful palaces to the Algarve's sea caves, these are the most photogenic spots in Portugal for your feed.</p>
-            <span class="blog-card-read">Read article →</span>
-          </div>
-        </a>
-
-        <!-- POST 5 -->
-        <a href="blog/most-historic-places-portugal.html" class="blog-card">
-          <div class="blog-card-img">
-            <img src="/assets/convento-cristo-2.webp" alt="Convento de Cristo em Tomar" width="600" height="400" loading="lazy">
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-card-date">March 2026</span>
-            <h2>Portugal's Most Historic Places You Need to Visit</h2>
-            <p>From medieval Templar castles to ancient monasteries, explore Portugal's rich heritage and the places that shaped a nation.</p>
-            <span class="blog-card-read">Read article →</span>
-          </div>
-        </a>
-
-        <!-- POST 6 -->
-        <a href="blog/best-beaches-portugal.html" class="blog-card">
-          <div class="blog-card-img">
-            <img src="/assets/camilo-beach.webp" alt="Praia do Camilo" width="600" height="400" loading="lazy">
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-card-date">March 2026</span>
-            <h2>The Best Beaches in Portugal</h2>
-            <p>From the golden Algarve cliffs to wild Atlantic surf beaches, your ultimate guide to Portugal's stunning coastline.</p>
-            <span class="blog-card-read">Read article →</span>
-          </div>
-        </a>
- 
-        <!--
-        =============================================
-        TEMPLATE — Copy this block for each new post
-        =============================================
-        <a href="blog/YOUR-POST-SLUG.html" class="blog-card">
-          <div class="blog-card-img">
-            <img src="/assets/blog/YOUR-IMAGE.webp" alt="Description" width="600" height="400" loading="lazy">
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-card-date">Month Year</span>
-            <h2>Post Title Here</h2>
-            <p>Short description in 1-2 sentences.</p>
-            <span class="blog-card-read">Read article →</span>
-          </div>
-        </a>
-        -->
- 
+        <h1>The Most Famous Drinks in Portugal</h1>
+        <div class="blog-post-meta">
+          <span>March 2026</span>
+          <span>·</span>
+          <span>5 min read</span>
+        </div>
       </div>
     </div>
   </section>
- 
+
+  <!-- POST CONTENT -->
+  <section class="blog-post-content">
+    <div class="container">
+
+        <p>Portugal's drink culture is as diverse and flavorful as its cuisine, with both alcoholic and non-alcoholic beverages playing important roles in its gastronomic identity. Among the most famous and quintessentially Portuguese drinks is "Port wine". This fortified wine originates from the "Douro Valley" in northern Portugal and is named after the city of "Porto". Port wine is typically sweet and comes in several varieties, including "Ruby", "Tawny", and "Vintage". It's commonly enjoyed as a dessert wine or an aperitif, often paired with cheese or dried fruits. The rich flavors and history behind Port have made it one of the most iconic exports of Portugal.</p>
+
+        <h2>Vinho Verde</h2>
+
+        <p>Another celebrated Portuguese drink is "Vinho Verde", a unique wine from the Minho region in the north. Despite its name, which translates to "green wine," Vinho Verde refers to its youthful freshness rather than its color, as it can be either white, red, or rosé. This wine is typically light, slightly effervescent, and low in alcohol, making it an ideal accompaniment to seafood and light dishes. Its crisp and refreshing taste has gained international popularity, particularly during the summer months.</p>
+
+        <h2>Ginjinha (Ginja)</h2>
+
+        <p>Portugal is also known for "Ginjinha" or "Ginja", a sweet cherry liqueur traditionally served in small cups, often with a whole cherry at the bottom. Originating from "Óbidos" and Lisbon, Ginjinha has a deep, rich flavor and is enjoyed both as a digestif and a casual drink. In Lisbon, there are famous little taverns that specialize in serving Ginja, where locals and tourists alike sip this liqueur, often in shot glasses. It's become an essential part of the cultural experience for anyone visiting the country.</p>
+
+        <h2>Non-Alcoholic Drinks in Portugal</h2>
+
+        <p>For non-alcoholic options, "Bica" (Portuguese espresso) holds a special place in Portuguese daily life. Coffee culture is deeply ingrained in the country, with locals often enjoying a "bica" after meals or during social gatherings. Portuguese coffee is strong, aromatic, and typically served in small cups. In addition to bica, herbal infusions made from local plants such as "cidreira" (lemon balm) and "erva-príncipe" (lemongrass) are popular, particularly in the cooler months. These drinks reflect the country’s appreciation for both strong and soothing flavors, bringing warmth to everyday Portuguese life.</p>
+
+      <!-- CTA -->
+      <div class="blog-post-cta">
+        <h3>Want to taste Portugal for yourself?</h3>
+        <p>Book a private tour and let our local guides show you the best spots.</p>
+        <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn btn-primary" target="_blank">
+          Book a Tour
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=+351911542421" class="btn btn-primary" target="_blank">
+          Whatsapp
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
@@ -227,7 +186,7 @@
         <div>
           <h4>Company</h4>
           <ul class="footer-links">
-            <li><a href="index.html#contact">Contact Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
             <li><a href="https://www.facebook.com/whattodoinportugal/" target="_blank">Facebook</a></li>
             <li><a href="http://www.instagram.com/whattodoinportugal" target="_blank">Instagram</a></li>
           </ul>
@@ -253,7 +212,7 @@
 
   <script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=950&locationId=12606759&lang=en_US&year=2019&display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
   <script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlywide&uniq=621&locationId=12606759&lang=en_US&border=false&shadow=false&backgroundColor=white&display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
- 
-  <script src="script.js"></script>
+
+  <script src="../script.js"></script>
 </body>
 </html>
