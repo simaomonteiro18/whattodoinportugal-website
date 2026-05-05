@@ -390,11 +390,24 @@ body {
 }
 .tour-card-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding-top: 16px;
   border-top: 1px solid rgba(0,0,0,0.06);
+  flex-wrap: nowrap; /* ADD */
+  gap: 10px;
 }
+
+.price-pill {
+  background: var(--teal);
+  color: white;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 10px 14px;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+
 .tour-meta {
   display: flex;
   gap: 16px;
@@ -406,6 +419,12 @@ body {
   font-size: 0.78rem;
   color: var(--gray);
   font-weight: 500;
+  min-width: 80px;
+  white-space: nowrap; /* ADD THIS */
+}
+.tour-meta-item.price {
+  font-size: 0.80rem;
+  font-weight: 700;
 }
 .tour-meta-item svg { width: 15px; height: 15px; color: var(--teal); }
 .btn-sm {
@@ -415,6 +434,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s;
+  white-space: nowrap;
 }
 .btn-sm.btn-primary { background: var(--gold); color: var(--white); }
 .btn-sm.btn-primary:hover { background: var(--gold-dark); transform: translateY(-1px); }
@@ -737,4 +757,12 @@ body {
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
   .top-bar .container { flex-direction: column; gap: 8px; }
+}
+
+@media (max-width: 480px) {
+  .tour-card-body { padding: 16px; }
+  .tour-card-footer { gap: 6px; }
+  .tour-meta-item { font-size: 0.72rem; }
+  .btn-sm { padding: 8px 10px; font-size: 0.72rem; }
+  .price-pill { padding: 8px 10px; font-size: 0.72rem; }
 }
