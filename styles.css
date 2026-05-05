@@ -335,6 +335,8 @@ body {
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   transition: all 0.4s cubic-bezier(0.22,1,0.36,1);
   border: 1px solid rgba(0,0,0,0.04);
+  display: flex;           /* ADD */
+  flex-direction: column;  /* ADD */
 }
 .tour-card:hover {
   transform: translateY(-6px);
@@ -366,7 +368,12 @@ body {
   text-transform: uppercase;
   color: var(--teal);
 }
-.tour-card-body { padding: 24px; }
+.tour-card-body { 
+  padding: 24px;
+  display: flex;           /* ADD */
+  flex-direction: column;  /* ADD */
+  flex: 1; 
+}
 .tour-card-body h3 {
   font-family: 'Playfair Display', serif;
   font-size: 1.25rem;
@@ -379,6 +386,7 @@ body {
   color: var(--gray);
   line-height: 1.6;
   margin-bottom: 20px;
+  flex: 1;
 }
 .tour-card-footer {
   display: flex;
