@@ -1,18 +1,39 @@
-# Old Wix URLs → New URLs
-/sintra-half-day                          /tours/sintra-half-day.html              301
-/lisbon-half-day-tour                     /tours/lisbon-half-day.html              301
-/fatima-half-day-tour                     /tours/fatima-half-day.html              301
-/sintra-full-day                          /tours/sintra-coast-full-day.html        301
-/lisbon-full-day                          /tours/lisbon-full-day.html              301
-/algarve-full-d                           /tours/algarve-full-day.html             301
-/porto-full-day-tour                      /tours/porto-full-day.html               301
-/templar-knights-full-day-tour            /tours/templar-knights-full-day.html     301
-/fatima-batalha-nazare-obidos-full-d      /tours/fatima-batalha-nazare-obidos.html 301
-/porto-transfer                           /tours/porto-transfer-3-stops.html       301
-/lisbon-sintra-shore-tour                 /tours/lisbon-sintra-shore.html          301
-/setubal-wine-tour                        /tours/setubal-azeitao-wine-tour.html    301
-/douro-valley-and-lisbon-5day-tour        /tours/douro-valley-lisbon.html          301
-/southern-portugal-and-spain-7-days       /tours/southern-portugal-spain.html      301
-/contact-us                               /index.html#contact                      301
-/post/the-most-famous-drinks-in-portugal  /blog/the-most-famous-drinks-in-portugal.html     301
-/post/discover-portugal-your-ultimate-private-tour-experience-from-the-usa  /blog/ultimate-private-tour-experience-from-the-usa.html 301
+# Old Wix URLs -> canonical URLs
+/sintra-half-day                          /tours/sintra-half-day               301
+/lisbon-half-day-tour                     /tours/lisbon-half-day               301
+/fatima-half-day-tour                     /tours/fatima-half-day               301
+/sintra-full-day                          /tours/sintra-coast-full-day         301
+/lisbon-full-day                          /tours/lisbon-full-day               301
+/algarve-full-day                         /tours/algarve-full-day              301
+/porto-full-day-tour                      /tours/porto-full-day                301
+/templar-knights-full-day-tour            /tours/templar-knights-full-day      301
+/fatima-batalha-nazare-obidos-full-day    /tours/fatima-batalha-nazare-obidos  301
+/porto-transfer                           /tours/porto-transfer-3-stops        301
+/lisbon-sintra-shore-tour                 /tours/lisbon-sintra-shore           301
+/setubal-wine-tour                        /tours/setubal-azeitao-wine-tour     301
+/douro-valley-and-lisbon-5day-tour        /tours/douro-valley-lisbon           301
+/southern-portugal-and-spain-7-days       /tours/southern-portugal-spain       301
+/contact-us                               /#contact                            301
+/post/the-most-famous-drinks-in-portugal  /blog/the-most-famous-drinks-in-portugal  301
+/post/discover-portugal-your-ultimate-private-tour-experience-from-the-usa  /blog/ultimate-private-tour-experience-from-the-usa  301
+
+# Force the extensionless form as canonical
+/index.html                               /                                    301!
+/privacy-policy.html                      /privacy-policy                      301!
+/tours/sintra-half-day.html               /tours/sintra-half-day               301!
+/tours/lisbon-half-day.html               /tours/lisbon-half-day               301!
+/tours/fatima-half-day.html               /tours/fatima-half-day               301!
+/tours/sintra-coast-full-day.html         /tours/sintra-coast-full-day         301!
+/tours/algarve-full-day.html              /tours/algarve-full-day              301!
+/tours/porto-full-day.html                /tours/porto-full-day                301!
+/tours/lisbon-full-day.html               /tours/lisbon-full-day               301!
+/tours/templar-knights-full-day.html      /tours/templar-knights-full-day      301!
+/tours/fatima-batalha-nazare-obidos.html  /tours/fatima-batalha-nazare-obidos  301!
+/tours/lisbon-sintra-shore.html           /tours/lisbon-sintra-shore           301!
+/tours/porto-transfer-3-stops.html        /tours/porto-transfer-3-stops        301!
+/tours/customizable-tour.html             /tours/customizable-tour             301!
+/tours/douro-valley-lisbon.html           /tours/douro-valley-lisbon           301!
+/tours/southern-portugal-spain.html       /tours/southern-portugal-spain       301!
+/tours/setubal-azeitao-wine-tour.html     /tours/setubal-azeitao-wine-tour     301!
+/blog/the-most-famous-drinks-in-portugal.html             /blog/the-most-famous-drinks-in-portugal             301!
+/blog/ultimate-private-tour-experience-from-the-usa.html  /blog/ultimate-private-tour-experience-from-the-usa  301!

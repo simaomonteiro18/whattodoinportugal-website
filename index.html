@@ -6,7 +6,6 @@
   <title>What to do in Portugal | Private Tours & Experiences</title>
   <meta name="robots" content="index, follow">
   <meta name="description" content="Private tours in Portugal with expert local guides. Explore Sintra, Lisbon, Porto, Algarve and more. Flexible itineraries, private transport. Book now!">
-  <meta name="keywords" content="private tours Portugal, Lisbon tours, Sintra tours, Porto tours, Algarve tours, Portugal private guide, luxury tours Portugal">
   <meta name="author" content="What to do in Portugal">
   <meta property="og:title" content="What to do in Portugal | Private Tours & Experiences">
   <meta property="og:description" content="Private tours with expert local guides. Explore Sintra, Lisbon, Porto, Algarve and more.">
@@ -21,9 +20,12 @@
   <meta name="twitter:image" content="https://whattodoin.pt/assets/ogimage.png">
   <link rel="canonical" href="https://whattodoin.pt/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="preload" as="image" href="/assets/sintra.webp" fetchpriority="high">
+
   <!-- 1. Google Consent Mode -->
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -46,16 +48,19 @@
     gtag('js', new Date());
     gtag('config', 'G-C7ZXS6SQ03');
   </script>
+
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
+      "@id": "https://whattodoin.pt/#business",
       "additionalType": "https://schema.org/TouristAttraction",
       "name": "What to do in Portugal",
       "description": "Private tours in Portugal with expert local guides. Sintra, Lisbon, Porto, Algarve and more.",
       "url": "https://whattodoin.pt",
       "telephone": "+351911542421",
       "email": "info@whattodoin.pt",
+      "foundingDate": "2017",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Rua da Barroca 62B",
@@ -63,10 +68,17 @@
         "postalCode": "2705-532",
         "addressCountry": "PT"
       },
+      "areaServed": [
+        { "@type": "Place", "name": "Lisbon" },
+        { "@type": "Place", "name": "Sintra" },
+        { "@type": "Place", "name": "Porto" },
+        { "@type": "Place", "name": "Algarve" }
+      ],
+      "availableLanguage": ["en", "pt", "es", "fr"],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
-        "reviewCount": "235",
+        "reviewCount": "237",
         "bestRating": "5"
       },
       "image": "https://whattodoin.pt/assets/ogimage.png",
@@ -75,6 +87,28 @@
         "https://www.facebook.com/whattodoinportugal/",
         "https://www.instagram.com/whattodoinportugal",
         "https://www.tripadvisor.com/Attraction_Review-g189158-d12606759-Reviews-What_to_do_in_Portugal-Lisbon_Lisbon_District_Central_Portugal.html"
+      ]
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Private Tours in Portugal",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Sintra Half Day Tour", "url": "https://whattodoin.pt/tours/sintra-half-day" },
+        { "@type": "ListItem", "position": 2, "name": "Lisbon Highlights Private Half Day Tour", "url": "https://whattodoin.pt/tours/lisbon-half-day" },
+        { "@type": "ListItem", "position": 3, "name": "Fatima Private Shore Excursion from Lisbon", "url": "https://whattodoin.pt/tours/fatima-half-day" },
+        { "@type": "ListItem", "position": 4, "name": "Private Sintra, Pena Palace, Cabo da Roca and Cascais Full Day Tour", "url": "https://whattodoin.pt/tours/sintra-coast-full-day" },
+        { "@type": "ListItem", "position": 5, "name": "Best of Algarve: Benagil Caves, Lagos Cliffs & Hidden Beaches", "url": "https://whattodoin.pt/tours/algarve-full-day" },
+        { "@type": "ListItem", "position": 6, "name": "Premium Porto Private Day Trip from Lisbon", "url": "https://whattodoin.pt/tours/porto-full-day" },
+        { "@type": "ListItem", "position": 7, "name": "Lisbon Full Day Tour", "url": "https://whattodoin.pt/tours/lisbon-full-day" },
+        { "@type": "ListItem", "position": 8, "name": "The Portuguese Knights Templar Private Full Day Tour", "url": "https://whattodoin.pt/tours/templar-knights-full-day" },
+        { "@type": "ListItem", "position": 9, "name": "Fátima, Batalha, Nazaré & Óbidos", "url": "https://whattodoin.pt/tours/fatima-batalha-nazare-obidos" },
+        { "@type": "ListItem", "position": 10, "name": "Lisbon and Sintra Private Shore Tour", "url": "https://whattodoin.pt/tours/lisbon-sintra-shore" },
+        { "@type": "ListItem", "position": 11, "name": "Porto Transfer with 3 stops", "url": "https://whattodoin.pt/tours/porto-transfer-3-stops" },
+        { "@type": "ListItem", "position": 12, "name": "Customizable Tour", "url": "https://whattodoin.pt/tours/customizable-tour" }
       ]
     }
   </script>
@@ -89,16 +123,16 @@
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:5px"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           info@whattodoin.pt
         </a>
-        <a href="https://api.whatsapp.com/send?phone=+351911542421&text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20tours!">
+        <a href="https://api.whatsapp.com/send?phone=+351911542421&text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20tours!" rel="noopener">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:5px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           +351 911 542 421
         </a>
       </div>
       <div class="social-links">
-        <a href="https://www.facebook.com/whattodoinportugal/" target="_blank" aria-label="Facebook">
+        <a href="https://www.facebook.com/whattodoinportugal/" target="_blank" rel="noopener" aria-label="Facebook">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
         </a>
-        <a href="http://www.instagram.com/whattodoinportugal" target="_blank" aria-label="Instagram">
+        <a href="https://www.instagram.com/whattodoinportugal" target="_blank" rel="noopener" aria-label="Instagram">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
         </a>
       </div>
@@ -108,33 +142,33 @@
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="container">
-      <a href="#" class="logo">
-        <img src="https://static.wixstatic.com/media/87b3d4_36224b318fa84241bf27cbd283ebf47f~mv2.png/v1/fill/w_290,h_190,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/87b3d4_36224b318fa84241bf27cbd283ebf47f~mv2.png" alt="What to do in Portugal" class="logo-img">
+      <a href="/" class="logo">
+        <img src="/assets/logo_wtdinpt.avif" alt="What to do in Portugal" class="logo-img" width="145" height="95">
       </a>
       <div class="nav-links">
-        <a href="../index.html#tours">Tours</a>
-        <a href="../index.html#multiday">Multi-Day</a>
-        <a href="../index.html#experiences">Experiences</a>
-        <a href="blog.html">Blog</a>
-        <a href="../index.html#why">Why Us</a>
-        <a href="../index.html#contact">Contact</a>
-        <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn-book" target="_blank">Book Now</a>
+        <a href="#tours">Tours</a>
+        <a href="#multiday">Multi-Day</a>
+        <a href="#experiences">Experiences</a>
+        <a href="/blog.html">Blog</a>
+        <a href="#why">Why Us</a>
+        <a href="#contact">Contact</a>
+        <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn-book" target="_blank" rel="noopener">Book Now</a>
       </div>
       <button class="mobile-toggle" onclick="openMobileNav()" aria-label="Open navigation menu">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
- 
+
   <div class="mobile-nav" id="mobileNav">
     <button class="mobile-close" onclick="closeMobileNav()" aria-label="Close navigation menu">&times;</button>
-    <a href="../index.html#tours" onclick="closeMobileNav()">Private Tours</a>
-    <a href="../index.html#multiday" onclick="closeMobileNav()">Multi-Day Tours</a>
-    <a href="../index.html#experiences" onclick="closeMobileNav()">Experiences</a>
+    <a href="#tours" onclick="closeMobileNav()">Private Tours</a>
+    <a href="#multiday" onclick="closeMobileNav()">Multi-Day Tours</a>
+    <a href="#experiences" onclick="closeMobileNav()">Experiences</a>
     <a href="/blog.html" onclick="closeMobileNav()">Blog</a>
-    <a href="../index.html#why" onclick="closeMobileNav()">Why Us</a>
-    <a href="../index.html#contact" onclick="closeMobileNav()">Contact</a>
-    <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn-book-mobile" target="_blank">Book Now</a>
+    <a href="#why" onclick="closeMobileNav()">Why Us</a>
+    <a href="#contact" onclick="closeMobileNav()">Contact</a>
+    <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn-book-mobile" target="_blank" rel="noopener">Book Now</a>
   </div>
 
   <!-- HERO -->
@@ -143,10 +177,10 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-badge"><span class="dot"></span> Private Tours Since 2017</div>
-        <h1>Discover the <em>Real</em> Portugal</h1>
+        <h1>Private Tours in Portugal <em>Beyond</em> the Guidebook</h1>
         <p>Private tours with expert local guides. Flexible itineraries designed around your interests — from Lisbon's golden light to the Algarve's hidden coves.</p>
         <div class="hero-actions">
-          <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn btn-primary" target="_blank">
+          <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn btn-primary" target="_blank" rel="noopener">
             Book Your Tour
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
@@ -156,10 +190,10 @@
       <div class="hero-visual">
         <div class="hero-float-card card-1">
           <div class="float-icon gold">⭐</div>
-          <div class="float-text">Rated Excellent<span>237 reviews on Tripadvisor</span></div>
+          <div class="float-text">Rated Excellent<span>248 reviews on Tripadvisor</span></div>
         </div>
         <div class="hero-card">
-          <img src="assets/sintra.webp" alt="Palácio da Pena em Sintra - Tours Privados em Portugal" loading="eager">
+          <img src="/assets/sintra.webp" alt="Pena Palace in Sintra, visited on our private half day tour" loading="eager" fetchpriority="high">
           <div class="hero-card-caption">
             <h3>Pena Palace, Sintra</h3>
             <span>Half Day Tour</span>
@@ -178,7 +212,7 @@
     <div class="container">
       <div class="stats-bar reveal">
         <div class="stat-item"><div class="stat-number">8+</div><div class="stat-label">Years of Experience</div></div>
-        <div class="stat-item"><div class="stat-number">237+</div><div class="stat-label">5-Star Reviews</div></div>
+        <div class="stat-item"><div class="stat-number">248+</div><div class="stat-label">5-Star Reviews</div></div>
         <div class="stat-item"><div class="stat-number">15+</div><div class="stat-label">Unique Tours</div></div>
         <div class="stat-item"><div class="stat-number">100%</div><div class="stat-label">Private & Flexible</div></div>
       </div>
@@ -197,7 +231,7 @@
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/sintra_tour.webp" alt="Pena Palace in Sintra - Sintra Half Day Tour" loading="lazy">
+            <img src="/assets/sintra_tour.webp" alt="Pena Palace in Sintra - Sintra Half Day Tour" loading="lazy">
             <span class="tour-tag">Half Day</span>
           </div>
           <div class="tour-card-body">
@@ -211,19 +245,19 @@
                 </div>
                 <span class="price-pill">From: €74 pp</span>
               </div>
-              <a href="tours/sintra-half-day.html" class="btn-sm btn-primary" aria-label="More info about Sintra Half Day Tour">More Info</a>
+              <a href="/tours/sintra-half-day" class="btn-sm btn-primary" aria-label="More info about Sintra Half Day Tour">More Info</a>
             </div>
           </div>
         </div>
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/lisbon_tour.webp" alt="Senhora do Monte Viewpoint in Lisbon - Lisbon Half Day Tour" loading="lazy">
+            <img src="/assets/lisbon_tour.webp" alt="Senhora do Monte Viewpoint in Lisbon - Lisbon Half Day Tour" loading="lazy">
             <span class="tour-tag">Half Day</span>
           </div>
           <div class="tour-card-body">
             <h3>Lisbon Highlights Private Half Day Tour</h3>
-            <p>Discover Lisbon’s historic neighbourhoods, iconic viewpoints, and authentic local flavours in Portugal’s vibrant capital.</p>
+            <p>Discover Lisbon's historic neighbourhoods, iconic viewpoints, and authentic local flavours in Portugal's vibrant capital.</p>
             <div class="tour-card-footer">
               <div class="tour-meta">
                 <div class="tour-meta-item">
@@ -232,13 +266,14 @@
                 </div>
                 <span class="price-pill">From: €64 pp</span>
               </div>
-              <a href="tours/lisbon-half-day.html" class="btn-sm btn-primary" aria-label="More info about Lisbon Half Day Tour">More Info</a>
+              <a href="/tours/lisbon-half-day" class="btn-sm btn-primary" aria-label="More info about Lisbon Half Day Tour">More Info</a>
             </div>
           </div>
         </div>
+
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/fatima_tour.webp" alt="Santuário de Fátima - Fátima Half Day Tour" loading="lazy">
+            <img src="/assets/fatima_tour.webp" alt="Santuário de Fátima - Fátima Half Day Tour" loading="lazy">
             <span class="tour-tag">Half Day</span>
           </div>
           <div class="tour-card-body">
@@ -252,14 +287,14 @@
                 </div>
                 <span class="price-pill">From: €109 pp</span>
               </div>
-              <a href="tours/fatima-half-day.html" class="btn-sm btn-primary" aria-label="More info about Fátima Half Day Tour">More Info</a>
+              <a href="/tours/fatima-half-day" class="btn-sm btn-primary" aria-label="More info about Fátima Half Day Tour">More Info</a>
             </div>
           </div>
         </div>
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/azenhas_tour.webp" alt="Azenhas do Mar - Sintra & Coast Full Day Tour" loading="lazy">
+            <img src="/assets/azenhas_tour.webp" alt="Azenhas do Mar - Sintra & Coast Full Day Tour" loading="lazy">
             <span class="tour-tag">Full Day</span>
           </div>
           <div class="tour-card-body">
@@ -273,14 +308,14 @@
                 </div>
                 <span class="price-pill">From: €110 pp</span>
               </div>
-              <a href="tours/sintra-coast-full-day.html" class="btn-sm btn-primary" aria-label="More info about Sintra and the Coast Full Day Tour">More Info</a>
+              <a href="/tours/sintra-coast-full-day" class="btn-sm btn-primary" aria-label="More info about Sintra and the Coast Full Day Tour">More Info</a>
             </div>
           </div>
         </div>
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/algarve_tour.webp" alt="Praia da Marinha - Algarve Full Day Tour" loading="lazy">
+            <img src="/assets/algarve_tour.webp" alt="Praia da Marinha - Algarve Full Day Tour" loading="lazy">
             <span class="tour-tag">Full Day</span>
           </div>
           <div class="tour-card-body">
@@ -294,14 +329,14 @@
                 </div>
                 <span class="price-pill">From: €208 pp</span>
               </div>
-              <a href="tours/algarve-full-day.html" class="btn-sm btn-primary" aria-label="More info about Algarve Full Day Tour">More Info</a>
+              <a href="/tours/algarve-full-day" class="btn-sm btn-primary" aria-label="More info about Algarve Full Day Tour">More Info</a>
             </div>
           </div>
         </div>
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/ribeira_tour.webp" alt="Ribeira - Porto Full Day Tour" loading="lazy">
+            <img src="/assets/ribeira_tour.webp" alt="Ribeira - Porto Full Day Tour" loading="lazy">
             <span class="tour-tag">Full Day</span>
           </div>
           <div class="tour-card-body">
@@ -315,14 +350,14 @@
                 </div>
                 <span class="price-pill">From: €208 pp</span>
               </div>
-              <a href="tours/porto-full-day.html" class="btn-sm btn-primary" aria-label="More info about Porto Full Day Tour">More Info</a>
+              <a href="/tours/porto-full-day" class="btn-sm btn-primary" aria-label="More info about Porto Full Day Tour">More Info</a>
             </div>
           </div>
         </div>
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/padrao_tour.webp" alt="Padrão dos Descobrimentos - Lisbon Full Day Tour" loading="lazy">
+            <img src="/assets/padrao_tour.webp" alt="Padrão dos Descobrimentos - Lisbon Full Day Tour" loading="lazy">
             <span class="tour-tag">Full Day</span>
           </div>
           <div class="tour-card-body">
@@ -336,14 +371,14 @@
                 </div>
                 <span class="price-pill">From: €102 pp</span>
               </div>
-              <a href="tours/lisbon-full-day.html" class="btn-sm btn-primary" aria-label="More info about Lisbon Full Day Tour">More Info</a>
+              <a href="/tours/lisbon-full-day" class="btn-sm btn-primary" aria-label="More info about Lisbon Full Day Tour">More Info</a>
             </div>
           </div>
         </div>
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/almourol.webp" alt="Castelo de Almourol - Templar Knights Full Day Tour" loading="lazy">
+            <img src="/assets/almourol.webp" alt="Castelo de Almourol - Templar Knights Full Day Tour" loading="lazy">
             <span class="tour-tag">Full Day</span>
           </div>
           <div class="tour-card-body">
@@ -357,14 +392,14 @@
                 </div>
                 <span class="price-pill">From: €115 pp</span>
               </div>
-              <a href="tours/templar-knights-full-day.html" class="btn-sm btn-primary" aria-label="More info about Templar Knights Full Day Tour">More Info</a>
+              <a href="/tours/templar-knights-full-day" class="btn-sm btn-primary" aria-label="More info about Templar Knights Full Day Tour">More Info</a>
             </div>
           </div>
         </div>
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/obidos_tour.webp" alt="Vila de Óbidos - Fátima, Batalha, Nazaré & Óbidos Full Day Tour" loading="lazy">
+            <img src="/assets/obidos_tour.webp" alt="Vila de Óbidos - Fátima, Batalha, Nazaré & Óbidos Full Day Tour" loading="lazy">
             <span class="tour-tag">Full Day</span>
           </div>
           <div class="tour-card-body">
@@ -378,19 +413,19 @@
                 </div>
                 <span class="price-pill">From: €112 pp</span>
               </div>
-              <a href="tours/fatima-batalha-nazare-obidos.html" class="btn-sm btn-primary" aria-label="More info about Fátima, Batalha, Nazaré and Óbidos Tour">More Info</a>
+              <a href="/tours/fatima-batalha-nazare-obidos" class="btn-sm btn-primary" aria-label="More info about Fátima, Batalha, Nazaré and Óbidos Tour">More Info</a>
             </div>
           </div>
         </div>
 
         <div class="tour-card reveal">
           <div class="tour-card-img">
-            <img src="assets/mouros_tour.webp" alt="Castelo dos Mouros - Lisbon & Sintra Shore Tour" loading="lazy">
+            <img src="/assets/mouros_tour.webp" alt="Castelo dos Mouros - Lisbon & Sintra Shore Tour" loading="lazy">
             <span class="tour-tag">Full Day</span>
           </div>
           <div class="tour-card-body">
             <h3>Lisbon and Sintra Private Shore Tour</h3>
-            <p>Explore Sintra’s enchanting palaces and lush landscapes before uncovering the historic charm and scenic viewpoints of Lisbon.</p>
+            <p>Explore Sintra's enchanting palaces and lush landscapes before uncovering the historic charm and scenic viewpoints of Lisbon.</p>
             <div class="tour-card-footer">
               <div class="tour-meta">
                 <div class="tour-meta-item">
@@ -399,7 +434,7 @@
                 </div>
                 <span class="price-pill">From: €102 pp</span>
               </div>
-              <a href="tours/lisbon-sintra-shore.html" class="btn-sm btn-primary" aria-label="More info about Lisbon and Sintra Shore Tour">More Info</a>
+              <a href="/tours/lisbon-sintra-shore" class="btn-sm btn-primary" aria-label="More info about Lisbon and Sintra Shore Tour">More Info</a>
             </div>
           </div>
         </div>
@@ -420,7 +455,7 @@
                 </div>
                 <span class="price-pill">From: €118 pp</span>
               </div>
-              <a href="tours/porto-transfer-3-stops.html" class="btn-sm btn-primary" aria-label="More info about Porto Transfer with 3 Stops">More Info</a>
+              <a href="/tours/porto-transfer-3-stops" class="btn-sm btn-primary" aria-label="More info about Porto Transfer with 3 Stops">More Info</a>
             </div>
           </div>
         </div>
@@ -440,7 +475,7 @@
                   Custom
                 </div>
               </div>
-              <a href="tours/customizable-tour.html" class="btn-sm btn-primary" aria-label="More info about Customizable Private Tour">More Info</a>
+              <a href="/tours/customizable-tour" class="btn-sm btn-primary" aria-label="More info about Customizable Private Tour">More Info</a>
             </div>
           </div>
         </div>
@@ -448,7 +483,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- MULTI-DAY TOURS -->
   <section class="section" id="multiday" style="background: var(--sand);">
@@ -460,19 +494,19 @@
       </div>
       <div class="multiday-grid">
         <div class="multiday-card reveal">
-          <img src="assets/douro-valley.webp" alt="Douro Valley - Douro Valley & Lisbon Private Tour" loading="lazy">
+          <img src="/assets/douro-valley.webp" alt="Douro Valley - Douro Valley & Lisbon Private Tour" loading="lazy">
           <div class="multiday-overlay">
             <h3>Douro Valley &amp; Lisbon</h3>
             <p>5 days exploring wine country and Portugal's vibrant capital</p>
-            <a href="tours/douro-valley-lisbon.html" class="btn-sm btn-primary">More Info</a>
+            <a href="/tours/douro-valley-lisbon" class="btn-sm btn-primary">More Info</a>
           </div>
         </div>
         <div class="multiday-card reveal">
-          <img src="assets/catedral-sevilla.webp" alt="Seville View - Southern Portugal & Spain Private Tour" loading="lazy">
+          <img src="/assets/catedral-sevilla.webp" alt="Seville View - Southern Portugal & Spain Private Tour" loading="lazy">
           <div class="multiday-overlay">
             <h3>Southern Portugal &amp; Spain</h3>
             <p>7 days through the Algarve, Seville, and Andalusian highlights</p>
-            <a href="tours/southern-portugal-spain.html" class="btn-sm btn-primary">More Info</a>
+            <a href="/tours/southern-portugal-spain" class="btn-sm btn-primary">More Info</a>
           </div>
         </div>
       </div>
@@ -488,11 +522,11 @@
         <p class="section-subtitle">Go beyond sightseeing with curated local experiences.</p>
       </div>
       <div class="experience-card reveal">
-        <img src="assets/wine_tour.webp" alt="Wine Tasting at JMF - Setúbal & Azeitão Wine Tour" loading="lazy">
+        <img src="/assets/wine_tour.webp" alt="Wine Tasting at JMF - Setúbal & Azeitão Wine Tour" loading="lazy">
         <div class="experience-card-body">
           <h3>Private Setúbal, Arrábida and Azeitão Full Day Tour with Winery Tour and Tasting</h3>
           <p>A private journey through the Arrábida region — taste Moscatel wines, visit artisanal producers, and savour fresh seafood by the coast.</p>
-          <a href="tours/setubal-azeitao-wine-tour.html" class="btn-sm btn-primary">More Info</a>
+          <a href="/tours/setubal-azeitao-wine-tour" class="btn-sm btn-primary">More Info</a>
         </div>
       </div>
     </div>
@@ -551,14 +585,14 @@
         <div class="cta-contacts">
           <a href="mailto:info@whattodoin.pt" class="cta-contact-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            <span class="__cf_email__" data-cfemail="4821262e27083f20293c3c272c27212666383c">info@whattodoin.pt</span>
+            <span>info@whattodoin.pt</span>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=+351911542421&text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20tours!" class="cta-contact-item">
+          <a href="https://api.whatsapp.com/send?phone=+351911542421&text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20tours!" class="cta-contact-item" rel="noopener">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             +351 911 542 421
           </a>
         </div>
-        <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn btn-primary" target="_blank">
+        <a href="https://fareharbor.com/embeds/book/whattodoin/?full-items=yes" class="btn btn-primary" target="_blank" rel="noopener">
           Book Your Tour Now
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
@@ -580,35 +614,34 @@
         <div>
           <h4>Tours</h4>
           <ul class="footer-links">
-            <li><a href="https://fareharbor.com/embeds/book/whattodoin/items/242840/?flow=422068" target="_blank">Sintra Half Day</a></li>
-            <li><a href="https://fareharbor.com/embeds/book/whattodoin/items/242842/?flow=422068" target="_blank">Lisbon Half Day</a></li>
-            <li><a href="https://fareharbor.com/embeds/book/whattodoin/items/242854/?flow=422068" target="_blank">Sintra & Coast Full Day</a></li>
-            <li><a href="https://fareharbor.com/embeds/book/whattodoin/items/242864/?flow=422015" target="_blank">Algarve Full Day</a></li>
-            <li><a href="https://fareharbor.com/embeds/book/whattodoin/items/242874/?flow=422015" target="_blank">Porto Full Day</a></li>
+            <li><a href="/tours/sintra-half-day">Sintra Half Day</a></li>
+            <li><a href="/tours/lisbon-half-day">Lisbon Half Day</a></li>
+            <li><a href="/tours/sintra-coast-full-day">Sintra &amp; Coast Full Day</a></li>
+            <li><a href="/tours/algarve-full-day">Algarve Full Day</a></li>
+            <li><a href="/tours/porto-full-day">Porto Full Day</a></li>
           </ul>
         </div>
         <div>
           <h4>Company</h4>
           <ul class="footer-links">
             <li><a href="#contact">Contact Us</a></li>
-            <li><a href="https://www.facebook.com/whattodoinportugal/" target="_blank">Facebook</a></li>
-            <li><a href="http://www.instagram.com/whattodoinportugal" target="_blank">Instagram</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="https://www.facebook.com/whattodoinportugal/" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://www.instagram.com/whattodoinportugal" target="_blank" rel="noopener">Instagram</a></li>
           </ul>
         </div>
         <div>
-          <div>
           <h4>Tripadvisor</h4>
           <div class="footer-tripadvisor">
             <div id="TA_certificateOfExcellence950" class="TA_certificateOfExcellence"><ul id="ak6pLZUhG416" class="TA_links lbcE2TAl6a"><li id="Lx8tulH" class="fEEAaBtxk"><a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g189158-d12606759-Reviews-What_to_do_in_Portugal-Lisbon_Lisbon_District_Central_Portugal.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/v2/coe-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li></ul></div>
             <div id="TA_cdsratingsonlywide621" class="TA_cdsratingsonlywide"><ul id="HoIvhmAM" class="TA_links ddI8Xr"><li id="7L2FdO" class="P1PEC0pk2"><a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g189158-d12606759-Reviews-What_to_do_in_Portugal-Lisbon_Lisbon_District_Central_Portugal.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-18034-2.svg" alt="TripAdvisor"/></a></li></ul></div>
           </div>
         </div>
-        </div>
       </div>
       <div class="footer-bottom">
         <span>&copy; 2017–2026 Whattodoin.pt — All Rights Reserved - RNAAT 877/2017</span>
         <div class="footer-bottom-links">
-          <a href="privacy-policy.html">Cookie & Privacy Policy</a>
+          <a href="/privacy-policy.html">Cookie &amp; Privacy Policy</a>
         </div>
       </div>
     </div>
@@ -617,7 +650,7 @@
   <script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=950&locationId=12606759&lang=en_US&year=2019&display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
   <script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlywide&uniq=621&locationId=12606759&lang=en_US&border=false&shadow=false&backgroundColor=white&display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
 
-  <script src="script.js"></script>
+  <script src="/script.js"></script>
 
 </body>
 </html>
